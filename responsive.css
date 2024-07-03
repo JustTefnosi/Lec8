@@ -1,0 +1,105 @@
+@media (min-width: 481px) and (max-width: 768px) {
+    .square {
+        height: 100%;
+        width: 400px;
+        position: absolute;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 32px;
+    }
+
+    .circle {
+        position: absolute;
+        top: 33%;
+        height: 200px;
+        width: 200px;
+    }
+
+    .result {
+        position: absolute;
+        top: 7%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .rate {
+        font-size: 120px;
+    }
+
+    .of {
+        font-size: x-large;
+        position: absolute;
+        top: 80%;
+    }
+
+    .great {
+        position: absolute;
+        left: 50%;
+        top: 62%;
+        transform: translate(-50%,-50%);
+        font-size: 35px;
+    }
+
+    .text {
+        font-size: 30px;
+        top: 70%;
+        color: rgba(255, 255, 255, 0.945);
+    }
+
+    .summary {
+        font-size: xx-large;
+        position: absolute;
+        top: 3%;
+        left: 56%;
+    }
+
+    .square1 {
+        width: 350px;
+        position: absolute;
+        left: 76%;
+        top: 20%;
+        height: 60px;
+    }
+
+    .square2 {
+        width: 350px;
+        position: absolute;
+        left: 76%;
+        top: 36%;
+        height: 60px;
+    }
+
+    .square3 {
+        width: 350px;
+        position: absolute;
+        left: 76%;
+        top: 52%;
+        height: 60px;
+    }
+
+    .square4 {
+        width: 350px;
+        position: absolute;
+        left: 76%;
+        top: 68%;
+        height: 60px;
+    }
+
+    .continue {
+        height: 60px;
+        width: 350px;
+        background-color: rgb(100, 36, 160);
+        position: absolute;
+        left: 53%;
+        top: 84%;
+        border-radius: 32px;
+    }
+    
+    .continue1 {
+        font-size: xx-large;
+        color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
